@@ -19,10 +19,10 @@ public:
 	void setYear(int year);
 	void setPrice(double price);
 
-	string setName()const;
-	string setAuthor()const;
-	int setYear()const;
-	double setPrice()const;
+	string getName()const;
+	string getAuthor()const;
+	int getYear()const;
+	double getPrice()const;
 
 	void print()const;
 };

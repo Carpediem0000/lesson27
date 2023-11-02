@@ -36,22 +36,22 @@ void Item::setPrice(double price)
     this->price = price;
 }
 
-string Item::setName() const
+string Item::getName() const
 {
     return name;
 }
 
-string Item::setAuthor() const
+string Item::getAuthor() const
 {
     return author;
 }
 
-int Item::setYear() const
+int Item::getYear() const
 {
     return year;
 }
 
-double Item::setPrice() const
+double Item::getPrice() const
 {
     return price;
 }
